@@ -142,8 +142,6 @@ class _CreateNewAccountState extends State<CreateNewAccount> {
         await      FirebaseFunction.createAccount(_emailController, _passwordController,context:
         context,name: _nameController,image: DpImage.toString());
 
-
-
             },
             ),
             InkWell(

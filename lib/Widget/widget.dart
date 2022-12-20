@@ -8,8 +8,6 @@ Widget buildContainer({controller, hint}) => Container(
         decoration: InputDecoration(
             hintText: hint,
             contentPadding: EdgeInsets.all(10),
-            border: OutlineInputBorder())));
-
-
+            border: OutlineInputBorder(),),),);
 
 BoxDecoration buildBoxDecoration({innerColor,bordreclr}) => BoxDecoration(color: innerColor,borderRadius: BorderRadius.circular(10),border: Border.all(color:bordreclr));
